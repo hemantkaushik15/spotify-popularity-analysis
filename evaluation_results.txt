@@ -1,0 +1,22 @@
+Spotify Songs Data Analysis & Modeling
+====================================
+
+Dataset Shape: (200, 12)
+Features used: ['song_id', 'song_name', 'artist', 'danceability', 'energy', 'loudness', 'tempo', 'acousticness', 'instrumentalness', 'valence', 'popular']
+
+Model Evaluation:
+- Mean Squared Error (MSE): 192.320
+- Root Mean Squared Error (RMSE): 13.868
+- R² Score: 0.715
+
+Sample Predictions (first 10):
+Actual: 61 | Predicted: 45.62
+Actual: 22 | Predicted: 42.34
+Actual: 87 | Predicted: 89.14
+Actual: 26 | Predicted: 47.59
+Actual: 62 | Predicted: 44.28
+Actual: 47 | Predicted: 45.58
+Actual: 98 | Predicted: 83.72
+Actual: 28 | Predicted: 46.08
+Actual: 81 | Predicted: 86.13
+Actual: 48 | Predicted: 42.97
